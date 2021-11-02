@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1635789079 source:c:\users\marco\desktop\aula faculdade\2_semestre\programacao_ii\game\game_project\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+
