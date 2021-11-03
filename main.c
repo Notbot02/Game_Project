@@ -62,13 +62,13 @@ void control()
 }
 // fim do comando de controle
 
-// função para criação de arquivos
+// funï¿½ï¿½o para criaï¿½ï¿½o de arquivos
 void openarq()
 {
     FILE *newarq;
     char escreve[TAM];
 
-    newarq = fopen("Pedaço de papel.txt", "a+");
+    newarq = fopen("Pedaï¿½o de papel.txt", "a+");
 
     if (newarq == NULL)
     {
@@ -77,14 +77,13 @@ void openarq()
     else
     {
 
-        fputs("D, R, A, T,  \
-              \nE, S, C, R, N,", newarq);
+        fputs("D, R, A, T,\nE, S, C, R, N,", newarq);
 
         fclose(newarq);
     }
 
 }
-// Fim função criação de arquivos
+// Fim funï¿½ï¿½o criaï¿½ï¿½o de arquivos
 
 //puzzles
 
@@ -95,15 +94,14 @@ void Puzzle1()
 
     openarq();
 
-    printf("\nletras desembaralhadas em um papel pode levar a destrancar a porta.\
-tente montar uma palavra com elas:");
+    printf("\nletras desembaralhadas em um papel pode levar a destrancar a porta.\ntente montar uma palavra com elas:");
     printf("\n-> ");
 
     scanf("%s", &resposta);
 
     if(strcmp (resposta, resposta_correta) == 0)
     {
-        printf("\nparabéns... você conseguiu destravar a porta.\n");
+        printf("\nparabï¿½ns... vocï¿½ conseguiu destravar a porta.\n");
     }
     else
     {
@@ -118,16 +116,17 @@ void Puzzle2()
     int i = 0;
     int au1, au2, au3, au4, au5;
 
-    printf("\nAo ir para a estante, você se depara com alguns livros desarrumados.\
-\nOnde se coloca eles, parece que há algum tipo de encaixe de cinco livros");
-    printf("\nEm uma mesinha há cinco livros.\
-\n1 livro\
-\n2 livro\
-\n3 livro\
-\n4 livro\
-\n5 livro");
+    printf("\nAo ir para a estante, vocï¿½ se depara com alguns livros desarrumados.
+            \nOnde se coloca eles, parece que hï¿½ algum tipo de encaixe de cinco livros");
 
-    printf("\nQual é a ordem dos livros");
+    printf("\nEm uma mesinha hï¿½ cinco livros.
+            \n1 livro
+            \n2 livro
+            \n3 livro
+            \n4 livro
+            \n5 livro");
+
+    printf("\nQual ï¿½ a ordem dos livros");
 
     printf("\n->");
     fflush(stdin);
@@ -156,11 +155,11 @@ void Puzzle2()
 
     if(au1 == 2 && au2 == 5 && au3 == 3 && au4 == 1 && au5 == 4)
     {
-        printf("\nparabens, você acertou a ordem\n");
+        printf("\nparabens, vocï¿½ acertou a ordem\n");
     }
     else
     {
-        printf("\nEstá errado");
+        printf("\nEstï¿½ errado");
         return Puzzle2();
     }
 
@@ -172,7 +171,7 @@ void Puzzle2()
 
 int main()
 {
-    //linguagem português
+    //linguagem portuguï¿½s
     setlocale(LC_ALL, "Portuguese");
     //Titulo do programa
     SetConsoleTitle("Adventure Text");
@@ -184,28 +183,28 @@ int main()
     }*/
     //introduction();
     //chapter1();
-    //printf("\nAgora você está em uma sala parecida com uma biblioteca");
+    //printf("\nAgora vocï¿½ estï¿½ em uma sala parecida com uma biblioteca");
     //chapter2();
-    printf("\nAgora você está em uma sala mais aberta");
+    printf("\nAgora vocï¿½ estï¿½ em uma sala mais aberta");
     chapter3();
 
     return 0;
 }
 
-//parte de baixo, tudo relacionado a história
+//parte de baixo, tudo relacionado a histï¿½ria
 
-//introdução da história
+//introduï¿½ï¿½o da histï¿½ria
 
 void introduction()
 {
-    /*printf("Você acaba de acordar em um lugar estranho, e não tem ideia\
-           de onde está.\n\
+    /*printf("Vocï¿½ acaba de acordar em um lugar estranho, e nï¿½o tem ideia\
+           de onde estï¿½.\n\
            ");
 
 
     if(controle == 's')
     {
-        printf("\nvocÊ foi para o sul\n");
+        printf("\nvocï¿½ foi para o sul\n");
 printf("                __________________________________________ \n\
                         |  . _____		    _____	             |   .       \n\
                         |	|_|_|_|		   |_|_|_|	             |            \n\
@@ -229,13 +228,13 @@ printf("                __________________________________________ \n\
 
 
 
-        printf("ao ir para o norte, você se depara com o amuleto de ramar");
+        printf("ao ir para o norte, vocï¿½ se depara com o amuleto de ramar");
 
         openarq();
     }
     if(controle == 'n')
     {
-        printf("\nVocê foi para o norte\n");
+        printf("\nVocï¿½ foi para o norte\n");
     }
 
     printf("voltando para a stacka zero");
@@ -244,24 +243,24 @@ printf("                __________________________________________ \n\
 
 void chapter1()
 {
-    printf("\nVocê está perto da cama");
-    //printf("\nPara que direção quer ir?");
+    printf("\nVocï¿½ estï¿½ perto da cama");
+    //printf("\nPara que direï¿½ï¿½o quer ir?");
     control();
 
     if(controle == 'n')
     {
-        printf("\nVocê se depara com uma porta no chão. Tem um tipo de tranca nela\n\
-que necessita de uma combinação de palavras\n");
+        printf("\nVocï¿½ se depara com uma porta no chï¿½o. Tem um tipo de tranca nela
+                \nque necessita de uma combinaï¿½ï¿½o de palavras\n");
 
         Puzzle1();
     }
     if(controle == 's')
     {
-        printf("\nSó tem uma cama aqui");
+        printf("\nSï¿½ tem uma cama aqui");
         return chapter1();
     }
 
-    printf("\nVocê percebe que a porta abriu agora e decide descer");
+    printf("\nVocï¿½ percebe que a porta abriu agora e decide descer");
 }
 
 void chapter2()
@@ -282,7 +281,7 @@ void chapter2()
     }
     if(controle == 'o')
     {
-        printf("\nVocê acabou de sair do porão por aquele lado");
+        printf("\nVocï¿½ acabou de sair do porï¿½o por aquele lado");
         return chapter2();
     }
     if(controle == 'l')
@@ -291,19 +290,19 @@ void chapter2()
        return chapter2();
     }
 
-    printf("\nvocê terminou o desafio. e escuta um barulho de algo abrindo.\
-\nquando você vê, aquela caixinha que estava trancada, agora está aberta");
+    printf("\nvocï¿½ terminou o desafio. e escuta um barulho de algo abrindo.
+            \nquando vocï¿½ vï¿½, aquela caixinha que estava trancada, agora estï¿½ aberta");
 
     control();
 
     if(controle == 'l')
     {
-        printf("\nVocê vê uma chave");
+        printf("\nVocï¿½ vï¿½ uma chave");
         control();
 
         if(controle == 'i')
         {
-            printf("\nvocê inspeciona a chave");
+            printf("\nvocï¿½ inspeciona a chave");
             return control();
         }
         if(controle == 'p')
@@ -316,7 +315,7 @@ void chapter2()
         return control();
     }
 
-    printf("\nvocê abriu a porta");
+    printf("\nvocï¿½ abriu a porta");
 }
 
 void chapter3()
@@ -327,20 +326,20 @@ void chapter3()
 
     if(controle == 's')
     {
-        printf("Aqui tem 4 bonecos de madeiras e há um espaço de encarte de algo");
+        printf("Aqui tem 4 bonecos de madeiras e hï¿½ um espaï¿½o de encarte de algo");
     }
     if(controle == 'n')
     {
-         printf("Tem uma bussola na parede e onde fica a inicias de cada ponto cardial\
-\n no N há um buraco de encaixe");
+         printf("Tem uma bussola na parede e onde fica a inicias de cada ponto cardial
+                \nno N hï¿½ um buraco de encaixe");
     }
     if(controle == 'l')
     {
-        printf("Há um vaso de flores com um encaixe");
+        printf("Hï¿½ um vaso de flores com um encaixe");
     }
     if(controle == 'o')
     {
-        printf("há um quadro com uma paisagem do outono");
+        printf("hï¿½ um quadro com uma paisagem do outono");
     }
 
     return chapter3();
