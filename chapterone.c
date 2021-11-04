@@ -96,6 +96,27 @@ void chapter1()
 \nO que você quer fazer?\n\
 \nI (Investigar) V (Vasculhar)\n");
 
+printf("      ----------_____________________________----------     \n");
+printf("               |  .                          |    .         \n");
+printf("            .  |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                      .      |              \n");
+printf("               |             .               |              \n");
+printf("               |                             |    :         \n");
+printf("      .        |                        :    |              \n");
+printf("               |  ____                       |              \n");
+printf("               | (____)~~~~~~~~~~~~~~        |              \n");
+printf("               | |__________________|        |              \n");
+printf("           :   |_||________________||________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\   .       \n");
+printf("      .     /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         do
         {
             control(&aux);
@@ -129,6 +150,27 @@ void chapter1()
 Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 \nO que você quer fazer?\
 \nI (Investigar) ou V (vasculhar)\n");
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |  .                          |              \n");
+printf("               |                             |              \n");
+printf("            .  |                      .      |              \n");
+printf("               |                             |              \n");
+printf("               |                             |     :        \n");
+printf("               |        :                    |              \n");
+printf("               |                             |              \n");
+printf("         .     |                             |              \n");
+printf("               |                  .          |              \n");
+printf("               |_____________________________|              \n");
+printf("              /                               \\      .     \n");
+printf("             /            _________            \\           \n");
+printf("            /            /         \\           \\          \n");
+printf("           /            /   ;---:   \\           \\         \n");
+printf("          /            /_____________\\           \\        \n");
+printf("         /             '''''''''''''''             \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
 
 
         do{
@@ -179,13 +221,57 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
     else if(aux == 'l')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |                             |  .           \n");
+printf("               |    .                        |              \n");
+printf("          :    |         .--------.          |              \n");
+printf("               |        (  |    |  )         |              \n");
+printf("               |         '--------'          |        .     \n");
+printf("               |                             |              \n");
+printf("               |        .                    |              \n");
+printf("       :       |                        :    |              \n");
+printf("            .  |                             |              \n");
+printf("               |_____________________________|     .        \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nVocê vê uma pequena janela redonda, mas a visão esta bloqueada por tabuas de madeira do lado de fora.\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
+
         return chapter1();
     }
     else if(aux == 'o')
     {
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |               .             |              \n");
+printf("               |   .                         |              \n");
+printf("       :       |                             |   :          \n");
+printf("               |                             |              \n");
+printf("               |           _______     .     |              \n");
+printf("            .  |          |  xxx  |          |              \n");
+printf("     .         |      ____|___ ___|__        |     .        \n");
+printf("               |     |        |      |       |              \n");
+printf("               |     |  xxxx  |  xx  |       |              \n");
+printf("               |_____|________|______|_______|              \n");
+printf("        .     /                               \\            \n");
+printf("             /                                 \\     .     \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nVocê vê algumas caixas vazias.\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
@@ -208,6 +294,28 @@ void chapter1_5()
 
     if(auxi == 'n')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |  .                          |    .         \n");
+printf("            .  |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                      .      |              \n");
+printf("               |             .               |              \n");
+printf("               |                             |    :         \n");
+printf("      .        |                        :    |              \n");
+printf("               |  ____                       |              \n");
+printf("               | (____)~~~~~~~~~~~~~~        |              \n");
+printf("               | |__________________|        |              \n");
+printf("           :   |_||________________||________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\   .       \n");
+printf("      .     /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nNão há mais nada aqui");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
@@ -217,6 +325,28 @@ void chapter1_5()
 
     else if(auxi == 's')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |  .                          |              \n");
+printf("               |                             |              \n");
+printf("            .  |                      .      |              \n");
+printf("               |                             |              \n");
+printf("               |                             |     :        \n");
+printf("               |        :                    |              \n");
+printf("               |                             |              \n");
+printf("         .     |                             |              \n");
+printf("               |                  .          |              \n");
+printf("               |_____________________________|              \n");
+printf("              /                               \\      .     \n");
+printf("             /            _________            \\           \n");
+printf("            /            /         \\           \\          \n");
+printf("           /            /   ;---:   \\           \\         \n");
+printf("          /            /_____________\\           \\        \n");
+printf("         /             '''''''''''''''             \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nAo olhar para o sul você vê um alçapão.\n\
 Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 \nO que você quer fazer?\
@@ -271,6 +401,28 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
     else if(auxi == 'l')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |                             |  .           \n");
+printf("               |    .                        |              \n");
+printf("          :    |         .--------.          |              \n");
+printf("               |        (  |    |  )         |              \n");
+printf("               |         '--------'          |        .     \n");
+printf("               |                             |              \n");
+printf("               |        .                    |              \n");
+printf("       :       |                        :    |              \n");
+printf("            .  |                             |              \n");
+printf("               |_____________________________|     .        \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nVocê vê uma pequena janela redonda, mas a visão esta bloqueada por tabuas de madeira do lado de fora.\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
@@ -278,6 +430,28 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
     }
     else if(auxi == 'o')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |               .             |              \n");
+printf("               |   .                         |              \n");
+printf("       :       |                             |   :          \n");
+printf("               |                             |              \n");
+printf("               |           _______     .     |              \n");
+printf("            .  |          |  xxx  |          |              \n");
+printf("     .         |      ____|___ ___|__        |     .        \n");
+printf("               |     |        |      |       |              \n");
+printf("               |     |  xxxx  |  xx  |       |              \n");
+printf("               |_____|________|______|_______|              \n");
+printf("        .     /                               \\            \n");
+printf("             /                                 \\     .     \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nVocê vê algumas caixas vazias.\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");

@@ -15,46 +15,54 @@ void control(char *cont)
 
     fflush(stdin);
     printf("-> ");
-    scanf("%c", &cont);
+    scanf("%c", &controle);
 
-    switch(*cont)
+    switch(controle)
     {
         case 's':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'n':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'l':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'o':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'p':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'i':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'v':
+        *cont = controle;
         printf("\n");
         break;
 
         case 'e':
+        *cont = controle;
         printf("\n");
         break;
 
         default:
-        printf("\nAï¿½ï¿½o Incompreensï¿½vel\n");
+        printf("\nAção Incompreensíveldd\n");
+        printf("\nPara onde você quer olhar agora?\
+\nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
         return control(cont);
     }
-
-    return 1;
 }

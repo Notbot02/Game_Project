@@ -173,6 +173,28 @@ void chapter2()
 
     if(aux == 'n')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |   As paravras de deus       |              \n");
+printf("               |       guiarão seu caminho   |              \n");
+printf("               |                             |              \n");
+printf("               |          ________           |              \n");
+printf("               |         |        |          |              \n");
+printf("               |         |        |          |              \n");
+printf("               |         | -;     |          |              \n");
+printf("               |         |        |          |              \n");
+printf("               |         |        |          |              \n");
+printf("               |_________|________|__________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("Você se depara com uma parede lisa, na parte superior está escrito\
 \n“As palavras de Deus guiarão seu caminho.”\
 \nEmbaixo da escrita há uma porta trancada.");
@@ -182,6 +204,31 @@ void chapter2()
     }
     else if(aux == 's')
     {
+
+printf("                         /         \                        \n");
+printf("                        /   ;---:   \                       \n");
+printf("                       /_____________\                      \n");
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |_____________________________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nQuando você desceu as escadas, o alçapão se recolheu para cima novamente e agora está emperrado.\
 \nVocê vê a porta do alçapão fechada.\
 \nVocê pode continuar vasculhando o quarto.");
@@ -191,6 +238,28 @@ void chapter2()
     }
     else if(aux == 'o')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |_____________________________|              \n");
+printf("              /                               \\            \n");
+printf("             /           ____                  \\           \n");
+printf("            /        ___| ___|_      ____       \\          \n");
+printf("           /        |____|_____|    |____|       \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                    _____                \\       \n");
+printf("        /                    |_____|                \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nHá um amontoado de livros no chão.\
 \nVocê pode investigá-los ou continuar vasculhando o quarto.\
 \nO que você quer fazer?\n\
@@ -230,6 +299,28 @@ I (Investigar) V (vasculhar)\n");
     }
     else if(aux == 'l')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |  _________________________  |              \n");
+printf("               | |>-----------------------<| |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |              \n");
+printf("               | | |                     | | |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |             \n");
+printf("               |_|>-----------------------<|_|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
        printf("\nHá uma estante vazia.");
        printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
@@ -252,6 +343,28 @@ void chapter2_5()
 
     if(aux == 'n')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |   As paravras de deus       |              \n");
+printf("               |       guiarão seu caminho   |              \n");
+printf("               |                             |              \n");
+printf("               |          ________           |              \n");
+printf("               |         |        |          |              \n");
+printf("               |         |        |          |              \n");
+printf("               |         | -;     |          |              \n");
+printf("               |         |        |          |              \n");
+printf("               |         |        |          |              \n");
+printf("               |_________|________|__________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nVocê se depara com uma parede lisa, na parte superior está escrito\
 \n“As palavras de Deus guiaram seu caminho.” ");
         printf("\nPara onde você quer olhar agora?\
@@ -260,6 +373,31 @@ void chapter2_5()
     }
     else if(aux == 's')
     {
+
+printf("                         /         \                        \n");
+printf("                        /   ;---:   \                       \n");
+printf("                       /_____________\                      \n");
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |_____________________________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nQuando você desceu as escadas, o alçapão se recolheu para cima novamente e agora está emperrado.\
 \nVocê vê a porta do alçapão fechada.\
 \nVocê pode continuar vasculhando o quarto.\n");
@@ -269,11 +407,55 @@ void chapter2_5()
     }
     else if(aux == 'o')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |                             |              \n");
+printf("               |_____________________________|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
         printf("\nNão há mais nada aqui\n");
         return chapter2_5();
     }
     else if(aux == 'l')
     {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |  _________________________  |              \n");
+printf("               | |>-----------------------<| |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |              \n");
+printf("               | | |                     | | |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |             \n");
+printf("               |_|>-----------------------<|_|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
+
        printf("\nHá uma estante vazia.\n\
 \nVocê pode organizar os livros que estão no chão e guardá-los ou continuar\
 \nvasculhando o quarto\
