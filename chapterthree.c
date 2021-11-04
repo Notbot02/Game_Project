@@ -11,7 +11,7 @@ void chapter3()
   char aux;
   control(&aux)
 
-  if(aux='n')
+  if(aux=='n')
   {
     printf("\nAssim que passou pela porta ela se fechou atras de você.
             \nAgora há uma porta fechada e uma bussola na parede.
@@ -26,7 +26,7 @@ void chapter3()
     return(chapter3);
   }
   
-  else if(aux='l')
+  else if(aux=='l')
   {
     printf("\nHá uma porta trancada e um vaso de flores no canto da sala.
             \nVocê observa que há um buraco no vaso.
@@ -40,7 +40,7 @@ void chapter3()
     return(chapter3)
   }
 
-    else if(aux='o')
+    else if(aux=='o')
   {
     printf("\nHá um quadro de uma paisagem no outono, na parede.
             \nNeste quadro é possível ver um buraco na pintura.
@@ -54,7 +54,7 @@ void chapter3()
     return(chapter3)
   }
 
-  else if(aux='s')
+  else if(aux=='s')
   {
     printf("\nHá uma grande lareira ao centro.
             \nNesta lareira tem uma prateleira de madeira onde estão quatro bonecos, também de madeira.
