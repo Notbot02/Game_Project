@@ -6,7 +6,7 @@
 	<locale.h>
 	<windows.h>
 
-1636059420 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\control.c
+1636059902 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\control.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -20,7 +20,7 @@
 
 1636049281 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\chapterone.h
 
-1636059282 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chapterone.c
+1636059815 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chapterone.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -28,7 +28,7 @@
 	<control.h>
 	<chapterone.h>
 
-1636049973 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\main.c
+1636060559 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -39,7 +39,7 @@
 	<chaptertwo.h>
 	<chapterthree.h>
 
-1636054927 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chaptertwo.c
+1636059815 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chaptertwo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

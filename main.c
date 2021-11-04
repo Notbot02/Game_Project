@@ -48,7 +48,7 @@ N (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
     //divisor 2
 
     //divisor 3
-    printf("\nAgora você está em uma sala mais aberta");
+    printf("\nAssim que passou pela porta ela se fechou atras de você.");
     chapter3();
     //divisor 3
 
