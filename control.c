@@ -6,16 +6,18 @@
 #include <control.h>
 #include <chapterone.h>
 #include <chaptertwo.h>
+#include <chapterthree.h>
 
-char controle;
 
-void control()
+void control(char *cont)
 {
+    char controle;
+
     fflush(stdin);
     printf("-> ");
-    scanf("%c", &controle);
+    scanf("%c", &cont);
 
-    switch(controle)
+    switch(*cont)
     {
         case 's':
         printf("\n");
@@ -51,7 +53,7 @@ void control()
 
         default:
         printf("\nAção Incompreensível\n");
-        return control();
+        return control(cont);
     }
 
     return 1;

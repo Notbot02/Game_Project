@@ -8,8 +8,6 @@
 
 #define TAM 20
 
-char controle;
-
 void livros()
 {
     FILE *ge;
@@ -98,6 +96,7 @@ void livros()
 
 void Puzzle2()
 {
+    char aux;
     char order;
     int i = 0;
     char au1, au2, au3, au4, au5;
@@ -138,7 +137,7 @@ void Puzzle2()
 
     if(au1 == 'g' && au2 == 'e' && au3 == 'l' && au4 == 'n' && au5 == 'd')
     {
-        printf("\nparabens, você acertou a ordem\n");
+        printf("\nVocê ouve um clique, agora a porta ao norte está destranca.\n");
     }
     else
     {
@@ -147,12 +146,12 @@ void Puzzle2()
 
         do
         {
-            control();
-           if(controle == 's')
+            control(&aux);
+           if(aux == 's')
         {
             return Puzzle2();
         }
-        else if(controle == 'n')
+        else if(aux == 'n')
         {
             printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)");
@@ -162,24 +161,26 @@ void Puzzle2()
         {
             printf("\nAção Incompreensível\n");
         }
-        }while(controle != 'n' && controle != 's');
+        }while(aux != 'n' && aux != 's');
     }
 
 }
 
 void chapter2()
 {
-    control();
+    char aux;
+    control(&aux);
 
-    if(controle == 'n')
+    if(aux == 'n')
     {
-        printf("\nVocê se depara com uma parede lisa, na parte superior está escrito\
-\n“As palavras de Deus guiaram seu caminho.” ");
+        printf("Você se depara com uma parede lisa, na parte superior está escrito\
+\n“As palavras de Deus guiarão seu caminho.”\
+\nEmbaixo da escrita há uma porta trancada.");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
         return chapter2();
     }
-    else if(controle == 's')
+    else if(aux == 's')
     {
         printf("\nQuando você desceu as escadas, o alçapão se recolheu para cima novamente e agora está emperrado.\
 \nVocê vê a porta do alçapão fechada.\
@@ -188,7 +189,7 @@ void chapter2()
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
         return chapter2();
     }
-    else if(controle == 'o')
+    else if(aux == 'o')
     {
         printf("\nHá um amontoado de livros no chão.\
 \nVocê pode investigá-los ou continuar vasculhando o quarto.\
@@ -197,8 +198,8 @@ I (Investigar) V (vasculhar)\n");
 
         do
         {
-            control();
-          if(controle == 'i')
+            control(&aux);
+          if(aux == 'i')
         {
 
             printf("\nVocê separa os livros:\
@@ -213,7 +214,7 @@ I (Investigar) V (vasculhar)\n");
             printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
         }
-        else if(controle == 'v')
+        else if(aux == 'v')
         {
             printf("\nContinuar vasculhando o quarto.");
             printf("\nPara onde você quer olhar agora?\
@@ -225,9 +226,9 @@ I (Investigar) V (vasculhar)\n");
             printf("\nAção Incompreensível\n");
         }
 
-        }while(controle != 'i' && controle != 'v');
+        }while(aux != 'i' && aux != 'v');
     }
-    else if(controle == 'l')
+    else if(aux == 'l')
     {
        printf("\nHá uma estante vazia.");
        printf("\nPara onde você quer olhar agora?\
@@ -246,10 +247,10 @@ I (Investigar) V (vasculhar)\n");
 
 void chapter2_5()
 {
+    char aux;
+    control(&aux);
 
-    control();
-
-    if(controle == 'n')
+    if(aux == 'n')
     {
         printf("\nVocê se depara com uma parede lisa, na parte superior está escrito\
 \n“As palavras de Deus guiaram seu caminho.” ");
@@ -257,7 +258,7 @@ void chapter2_5()
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
         return chapter2_5();
     }
-    else if(controle == 's')
+    else if(aux == 's')
     {
         printf("\nQuando você desceu as escadas, o alçapão se recolheu para cima novamente e agora está emperrado.\
 \nVocê vê a porta do alçapão fechada.\
@@ -266,12 +267,12 @@ void chapter2_5()
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
         return chapter2_5();
     }
-    else if(controle == 'o')
+    else if(aux == 'o')
     {
         printf("\nNão há mais nada aqui\n");
         return chapter2_5();
     }
-    else if(controle == 'l')
+    else if(aux == 'l')
     {
        printf("\nHá uma estante vazia.\n\
 \nVocê pode organizar os livros que estão no chão e guardá-los ou continuar\
@@ -280,13 +281,13 @@ void chapter2_5()
 
         do
         {
-        control();
+        control(&aux);
 
-        if(controle == 'o')
+        if(aux == 'o')
         {
             Puzzle2();
         }
-        else if(controle == 'v')
+        else if(aux == 'v')
         {
             printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n");
@@ -296,7 +297,7 @@ void chapter2_5()
         {
             printf("\nAção Incompreensível\n");
         }
-    }while (controle != 'o' && controle != 'v');
+    }while (aux != 'o' && aux != 'v');
 
     }
 
@@ -308,10 +309,9 @@ void chapter2_5()
         return chapter2_5();
     }
 
-    printf("\nvocê abriu a porta\n");
-
     //Pausar tela
     system("PAUSE");
     //limpar a tela
     system("cls");
 }
+

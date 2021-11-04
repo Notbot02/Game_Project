@@ -6,7 +6,7 @@
 	<locale.h>
 	<windows.h>
 
-1635991373 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\control.c
+1636048497 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\control.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -14,12 +14,13 @@
 	<control.h>
 	<chapterone.h>
 	<chaptertwo.h>
+	<chapterthree.h>
 
-1635988159 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\control.h
+1636049557 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\control.h
 
-1635983157 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\chapterone.h
+1636049281 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\chapterone.h
 
-1635994411 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chapterone.c
+1636049732 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chapterone.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -27,7 +28,7 @@
 	<control.h>
 	<chapterone.h>
 
-1635994411 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\main.c
+1636045773 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -36,8 +37,9 @@
 	<control.h>
 	<chapterone.h>
 	<chaptertwo.h>
+	<chapterthree.h>
 
-1635994411 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chaptertwo.c
+1636049732 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chaptertwo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -45,5 +47,15 @@
 	<control.h>
 	<chaptertwo.h>
 
-1635988221 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\chaptertwo.h
+1636049561 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\chaptertwo.h
+
+1636046362 source:c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\chapterthree.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<control.h>
+	<chapterthree.h>
+
+1636049973 c:\users\marco\desktop\aula_faculdade\2_semestre\programacao_ii\game\game_project\\chapterthree.h
 

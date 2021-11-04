@@ -7,6 +7,7 @@
 #include <control.h>
 #include <chapterone.h>
 #include <chaptertwo.h>
+#include <chapterthree.h>
 
 void introduction();
 
@@ -35,6 +36,7 @@ N (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
     chapter1_5();
     //divisor 1
 
+
     //divisor 2
     printf("Você destranca a passagem e desce as escadas ao sul.\
 \nVocê se depara com diversas estantes de livros e um amontoado de livros caídos no chão.\
@@ -46,8 +48,8 @@ N (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
     //divisor 2
 
     //divisor 3
-    /*printf("\nAgora você está em uma sala mais aberta");
-    chapter3();*/
+    printf("\nAgora você está em uma sala mais aberta");
+    chapter3();
     //divisor 3
 
     return 0;

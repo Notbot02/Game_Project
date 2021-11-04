@@ -8,10 +8,10 @@
 
 #define TAM 20
 
-char controle;
-
 void Puzzle1()
 {
+    char aux;
+
     char resposta_correta[TAM] = "vinganca";
     char resposta[TAM];
 
@@ -37,13 +37,13 @@ N(Não) S(Sim)\n");
 
         do
         {
-            control();
+            control(&aux);
 
-        if(controle == 's')
+        if(aux == 's')
         {
             return Puzzle1();
         }
-        if(controle == 'n')
+        if(aux == 'n')
         {
             printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
@@ -54,7 +54,7 @@ N(Não) S(Sim)\n");
             printf("\nAção Incompreensível\n");
         }
 
-        }while(controle != 's' && controle != 'n');
+        }while(aux != 's' && aux != 'n');
     }
 }
 
@@ -85,9 +85,11 @@ iNjustIça, e não haVerá exceção pAra ninGuém.\n\
 
 void chapter1()
 {
-    control();
+    char aux;
 
-    if(controle == 'n')
+    control(&aux);
+
+    if(aux == 'n')
     {
         printf("\nAo olhar para o norte você vê a cama na qual acordou");
         printf("\nVocê pode investigá-la ou ainda continuar vasculhando o quarto.\
@@ -96,9 +98,9 @@ void chapter1()
 
         do
         {
-            control();
+            control(&aux);
 
-        if(controle == 'i')
+        if(aux == 'i')
         {
             printf("Ao investigar a cama, você encontra um papel amassado.\
 \nHá algo escrito nele. Você guarda o papel com você, você deverá lê-lo!\n");
@@ -106,7 +108,7 @@ void chapter1()
             printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
         }
-        else if(controle == 'v')
+        else if(aux == 'v')
         {
             printf("\nContinuar vasculhando");
             printf("\nPara onde você quer olhar agora?\
@@ -118,10 +120,10 @@ void chapter1()
             printf("\nAção Incompreensível\n");
         }
 
-        }while(controle != 'i' && controle != 'v');
+        }while(aux != 'i' && aux != 'v');
     }
 
-    else if(controle == 's')
+    else if(aux == 's')
     {
         printf("\nAo olhar para o sul você vê um alçapão.\n\
 Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
@@ -130,9 +132,9 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
 
         do{
-        control();
+        control(&aux);
 
-        if(controle == 'i')
+        if(aux == 'i')
         {
             printf("\nO alçapão está bloqueado por uma trava. Nesta trava há uma sequência de botões giratórios com letras.");
             printf("\nVocê pode escrever uma senha ou ainda continuar vasculhando o quarto. O que você quer fazer?\
@@ -140,13 +142,13 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
             do
             {
-            control();
-            if(controle == 'e')
+            control(&aux);
+            if(aux == 'e')
             {
                 Puzzle1();
                 break;
             }
-            else if(controle == 'v')
+            else if(aux == 'v')
             {
             printf("\nContinuar vasculhando");
             printf("\nPara onde você quer olhar agora?\
@@ -157,9 +159,9 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
             {
                 printf("\nAção Incompreensível\n");
             }
-            }while(controle != 'e' && controle != 'v');
+            }while(aux != 'e' && aux != 'v');
         }
-        else if(controle == 'v')
+        else if(aux == 'v')
         {
             printf("\nContinuar vasculhando");
             printf("\nPara onde você quer olhar agora?\
@@ -172,17 +174,17 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
         }
         break;
 
-    }while(controle != 'i' && controle != 'v');
+    }while(aux != 'i' && aux != 'v');
     }
 
-    else if(controle == 'l')
+    else if(aux == 'l')
     {
         printf("\nVocê vê uma pequena janela redonda, mas a visão esta bloqueada por tabuas de madeira do lado de fora.\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
         return chapter1();
     }
-    else if(controle == 'o')
+    else if(aux == 'o')
     {
         printf("\nVocê vê algumas caixas vazias.\n");
         printf("\nPara onde você quer olhar agora?\
@@ -200,9 +202,11 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
 void chapter1_5()
 {
-    control();
+    char auxi;
 
-    if(controle == 'n')
+    control(&auxi);
+
+    if(auxi == 'n')
     {
         printf("\nNão há mais nada aqui");
         printf("\nPara onde você quer olhar agora?\
@@ -211,7 +215,7 @@ void chapter1_5()
         return chapter1_5();
     }
 
-    else if(controle == 's')
+    else if(auxi == 's')
     {
         printf("\nAo olhar para o sul você vê um alçapão.\n\
 Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
@@ -220,9 +224,9 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
 
         do{
-        control();
+        control(&auxi);
 
-        if(controle == 'i')
+        if(auxi == 'i')
         {
             printf("\nO alçapão está bloqueado por uma trava. Nesta trava há uma sequência de botões giratórios com letras.");
             printf("\nVocê pode escrever uma senha ou ainda continuar vasculhando o quarto. O que você quer fazer?\
@@ -230,13 +234,13 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
 
             do
             {
-            control();
-            if(controle == 'e')
+            control(&auxi);
+            if(auxi == 'e')
             {
                 Puzzle1();
                 break;
             }
-            else if(controle == 'v')
+            else if(auxi == 'v')
             {
             printf("\nContinuar vasculhando");
             printf("\nPara onde você quer olhar agora?\
@@ -247,9 +251,9 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
             {
                 printf("\nAção Incompreensível\n");
             }
-            }while(controle != 'e' && controle != 'v');
+            }while(auxi != 'e' && auxi != 'v');
         }
-        else if(controle == 'v')
+        else if(auxi == 'v')
         {
             printf("\nContinuar vasculhando");
             printf("\nPara onde você quer olhar agora?\
@@ -262,17 +266,17 @@ Você pode investigá-lo ou ainda continuar vasculhando o quarto.\
         }
         break;
 
-    }while(controle != 'i' && controle != 'v');
+    }while(auxi != 'i' && auxi != 'v');
     }
 
-    else if(controle == 'l')
+    else if(auxi == 'l')
     {
         printf("\nVocê vê uma pequena janela redonda, mas a visão esta bloqueada por tabuas de madeira do lado de fora.\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
         return chapter1();
     }
-    else if(controle == 'o')
+    else if(auxi == 'o')
     {
         printf("\nVocê vê algumas caixas vazias.\n");
         printf("\nPara onde você quer olhar agora?\

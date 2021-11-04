@@ -1,0 +1,6 @@
+#ifndef CHAPTERTHREE_H_INCLUDED
+#define CHAPTERTHREE_H_INCLUDED
+
+void chapter3();
+
+#endif // CHAPTERTHREE_H_INCLUDED
