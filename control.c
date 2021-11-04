@@ -52,7 +52,7 @@ void control(char *cont)
         break;
 
         default:
-        printf("\nAção Incompreensível\n");
+        printf("\nAï¿½ï¿½o Incompreensï¿½vel\n");
         return control(cont);
     }
 
