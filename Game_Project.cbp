@@ -30,7 +30,20 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="C:/Users/marco/Desktop/Aula_faculdade/2_Semestre/Programacao_II/game/Game_Project/" />
 		</Compiler>
+		<Unit filename="chapterone.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chapterone.h" />
+		<Unit filename="chaptertwo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="chaptertwo.h" />
+		<Unit filename="control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="control.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
