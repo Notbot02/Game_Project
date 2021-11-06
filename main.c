@@ -72,8 +72,9 @@ printf("   / ^ ^ ^  ^  ^  ^   ||||||||||||||||||||||||||||||oooooooooo| |ooooooo
 printf("   ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo         \n");
 
     printf("Agora você se vê em uma cabana abandonada, rodeada pelas arvores.\
-           \nO que você quer fazer? ");
+           \nO que você quer fazer?");
 
+    system("PAUSE");
     /*divisor 3
     printf("\nAssim que passou pela porta ela se fechou atras de você.\n");
     printf("\nPara onde você quer olhar agora?\

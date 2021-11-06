@@ -15,6 +15,8 @@ void Puzzle1()
     char resposta_correta[TAM] = "vinganca";
     char resposta[TAM];
 
+    printf("(não aceita acento ou 'ç')\
+           \n(escreva a palavra)\ ");
     printf("\n-> ");
 
     scanf("%s", &resposta);
@@ -28,6 +30,12 @@ void Puzzle1()
         }*/
 
         printf("\nVocê conseguiu destrancar a passagem.\n");
+
+        //pausar a tela
+    printf("\n");
+    system("PAUSE");
+    //limpar tela
+    system("cls");
     }
     else
     {
@@ -165,9 +173,9 @@ printf("               |                  .          |              \n");
 printf("               |_____________________________|              \n");
 printf("              /                               \\      .     \n");
 printf("             /            _________            \\           \n");
-printf("            /            /         \\           \\          \n");
-printf("           /            /   ;---:   \\           \\         \n");
-printf("          /            /_____________\\           \\        \n");
+printf("            /            /         \\            \\          \n");
+printf("           /            /   ;---:   \\            \\         \n");
+printf("          /            /_____________\\            \\        \n");
 printf("         /             '''''''''''''''             \\       \n");
 printf("        /                                           \\      \n");
 printf("       /                                             \\     \n");
@@ -178,30 +186,11 @@ printf("       /                                             \\     \n");
 
         if(aux == 'i')
         {
-            printf("\nO alçapão está bloqueado por uma trava. Nesta trava há uma sequência de botões giratórios com letras.");
-            printf("\nVocê pode escrever uma senha ou ainda continuar vasculhando o quarto. O que você quer fazer?\
-\nE (escrever senha) ou V (vasculhar)\n");
-
-            do
-            {
-            control(&aux);
-            if(aux == 'e')
-            {
-                Puzzle1();
-                break;
-            }
-            else if(aux == 'v')
-            {
-            printf("\nContinuar vasculhando");
+            printf("\nO alçapão está bloqueado por uma trava. Nesta trava há uma sequência de botões giratórios com letras.\
+                   \ninfelizmente você não tem ideia da senha");
             printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
             return chapter1();
-            }
-            else
-            {
-                printf("\nAção Incompreensível\n");
-            }
-            }while(aux != 'e' && aux != 'v');
         }
         else if(aux == 'v')
         {
@@ -465,9 +454,5 @@ printf("       /                                             \\     \n");
         return chapter1();
     }
 
-    //pausar a tela
-    printf("\n");
-    system("PAUSE");
-    //limpar tela
-    system("cls");
+
 }

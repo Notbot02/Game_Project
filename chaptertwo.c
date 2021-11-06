@@ -92,6 +92,31 @@ void livros()
 
         fclose(de);
     }
+
+    FILE *biblia;
+
+    biblia = fopen("Biblia.txt", "w+");
+
+    if(biblia == NULL)
+    {
+
+    }
+    else
+    {
+        fputs("***************************************************************\
+             \n*							      *\n\
+             \n*		BÍBLIA SAGRADA				      *\n\
+             \n*							      *\
+             \n*	Gênesis					              *\
+             \n*	Êxodo						      *\
+             \n*	Levítico					      *\
+             \n*	Números 					      *\
+             \n*	Deuteronômio					      *\
+             \n*		 					      *\
+             \n***************************************************************\n", biblia);
+
+             fclose(biblia);
+    }
 }
 
 void Puzzle2()
@@ -108,7 +133,8 @@ void Puzzle2()
 \n(d) Deuteronômio\
 \n(e) Êxodo\
 \nQual a sequência que você organiza a prateleira?\
-\n(utilize apenas a primeira letra)\n");
+\n(utilize apenas a primeira letra)\
+\n(coloque caracter por caracter)");
 
 
     for(int i=0; i<5; i++)
@@ -134,14 +160,14 @@ printf("               | |/_______________________\\| |              \n");
 printf("               | | |_____________________| | |              \n");
 printf("               | |/_______________________\\| |             \n");
 printf("               |_|>-----------------------<|_|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
     }
     else
     {
@@ -190,14 +216,14 @@ printf("               |         | -;     |          |              \n");
 printf("               |         |        |          |              \n");
 printf("               |         |        |          |              \n");
 printf("               |_________|________|__________|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
         printf("Você se depara com uma parede lisa, na parte superior está escrito\
 \n“As palavras de Deus guiarão seu caminho.”\
@@ -209,9 +235,10 @@ printf("       /                                             \\     \n");
     else if(aux == 's')
     {
 
-printf("                         /         \                        \n");
-printf("                        /   ;---:   \                       \n");
-printf("                       /_____________\                      \n");
+printf("                          _________                          \n");
+printf("                         /         \\                        \n");
+printf("                        /   ;---:   \\                       \n");
+printf("                       /_____________\\                     \n");
 printf("      ----------_____________________________----------     \n");
 printf("               |                             |              \n");
 printf("               |                             |              \n");
@@ -224,14 +251,14 @@ printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |_____________________________|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
         printf("\nQuando você desceu as escadas, o alçapão se recolheu para cima novamente e agora está emperrado.\
 \nVocê vê a porta do alçapão fechada.\
@@ -255,14 +282,14 @@ printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |_____________________________|              \n");
-printf("              /                               \\            \n");
-printf("             /           ____                  \\           \n");
-printf("            /        ___| ___|_      ____       \\          \n");
-printf("           /        |____|_____|    |____|       \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                    _____                \\       \n");
-printf("        /                    |_____|                \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /           ____                  \\\           \n");
+printf("            /        ___| ___|_      ____       \\\          \n");
+printf("           /        |____|_____|    |____|       \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                    _____                \\\       \n");
+printf("        /                    |_____|                \\\      \n");
+printf("       /                                             \\\     \n");
 
         printf("\nHá um amontoado de livros no chão.\
 \nVocê pode investigá-los ou continuar vasculhando o quarto.\
@@ -316,14 +343,14 @@ printf("               | |/_______________________\\| |              \n");
 printf("               | | |_____________________| | |              \n");
 printf("               | |/_______________________\\| |             \n");
 printf("               |_|>-----------------------<|_|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
        printf("\nHá uma estante vazia.");
        printf("\nPara onde você quer olhar agora?\
@@ -360,14 +387,14 @@ printf("               |         | -;     |          |              \n");
 printf("               |         |        |          |              \n");
 printf("               |         |        |          |              \n");
 printf("               |_________|________|__________|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
         printf("\nVocê se depara com uma parede lisa, na parte superior está escrito\
 \n“As palavras de Deus guiaram seu caminho.” ");
@@ -393,14 +420,14 @@ printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |_____________________________|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\           \n");
+printf("             /                                 \\\          \n");
+printf("            /                                   \\\         \n");
+printf("           /                                     \\\        \n");
+printf("          /                                       \\\       \n");
+printf("         /                                         \\\      \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
         printf("\nQuando você desceu as escadas, o alçapão se recolheu para cima novamente e agora está emperrado.\
 \nVocê vê a porta do alçapão fechada.\
@@ -424,14 +451,14 @@ printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |                             |              \n");
 printf("               |_____________________________|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
         printf("\nNão há mais nada aqui\n");
         return chapter2_5();
@@ -451,14 +478,14 @@ printf("               | |/_______________________\\| |              \n");
 printf("               | | |_____________________| | |              \n");
 printf("               | |/_______________________\\| |             \n");
 printf("               |_|>-----------------------<|_|              \n");
-printf("              /                               \\            \n");
-printf("             /                                 \\           \n");
-printf("            /                                   \\          \n");
-printf("           /                                     \\         \n");
-printf("          /                                       \\        \n");
-printf("         /                                         \\       \n");
-printf("        /                                           \\      \n");
-printf("       /                                             \\     \n");
+printf("              /                               \\\            \n");
+printf("             /                                 \\\           \n");
+printf("            /                                   \\\          \n");
+printf("           /                                     \\\         \n");
+printf("          /                                       \\\        \n");
+printf("         /                                         \\\       \n");
+printf("        /                                           \\\      \n");
+printf("       /                                             \\\     \n");
 
        printf("\nHá uma estante vazia.\n\
 \nVocê pode organizar os livros que estão no chão e guardá-los ou continuar\
