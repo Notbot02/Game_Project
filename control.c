@@ -6,7 +6,6 @@
 #include <control.h>
 #include <chapterone.h>
 #include <chaptertwo.h>
-#include <chapterthree.h>
 
 
 void control(char *cont)
@@ -15,7 +14,8 @@ void control(char *cont)
 
     fflush(stdin);
     printf("-> ");
-    scanf("%c", &controle);
+
+    controle = getch();
 
     switch(controle)
     {
@@ -60,7 +60,7 @@ void control(char *cont)
         break;
 
         default:
-        printf("\nAção Incompreensíveldd\n");
+        printf("\nAção Incompreensível\n");
         printf("\nPara onde você quer olhar agora?\
 \nN (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
         return control(cont);

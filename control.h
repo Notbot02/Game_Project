@@ -6,7 +6,7 @@ void chapter1();
 void chapter1_5();
 void chapter2();
 void chapter2_5();
-void chapter3();
+//void chapter3();
 
 
 #endif // CONTROL_H_INCLUDED

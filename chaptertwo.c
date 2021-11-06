@@ -99,7 +99,7 @@ void Puzzle2()
     char aux;
     char order;
     int i = 0;
-    char au1, au2, au3, au4, au5;
+    char agrup[5];
 
     printf("\nVocê vê os livros\
 \n(n) Números\
@@ -110,34 +110,38 @@ void Puzzle2()
 \nQual a sequência que você organiza a prateleira?\
 \n(utilize apenas a primeira letra)\n");
 
-    printf("\n->");
-    fflush(stdin);
-    scanf("%c", &order);
-    au1 = order;
 
-    printf("\n->");
-    fflush(stdin);
-    scanf("%c", &order);
-    au2 = order;
-
-    printf("\n->");
-    fflush(stdin);
-    scanf("%c", &order);
-    au3 = order;
-
-    printf("\n->");
-    fflush(stdin);
-    scanf("%c", &order);
-    au4 = order;
-
-    printf("\n->");
-    fflush(stdin);
-    scanf("%c", &order);
-    au5 = order;
-
-    if(au1 == 'g' && au2 == 'e' && au3 == 'l' && au4 == 'n' && au5 == 'd')
+    for(int i=0; i<5; i++)
     {
-        printf("\nVocê ouve um clique, agora a porta ao norte está destranca.\n");
+        printf("\n->");
+        fflush(stdin);
+        scanf("%c", &order);
+        agrup[i] = order;
+    }
+
+    if(agrup[0] == 'g' && agrup[1] == 'e' && agrup[2] == 'l' && agrup[3] == 'n' && agrup[4] == 'd')
+    {
+
+printf("      ----------_____________________________----------     \n");
+printf("               |                             |              \n");
+printf("               |  _________________________  |              \n");
+printf("               | |>-----------------------<| |              \n");
+printf("               | | |__|G|E|___|L|N|__|D|_| | |              \n");
+printf("               | |/___|_|_|___|_|_|__|_|_\\| |              \n");
+printf("               | | |                     | | |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |              \n");
+printf("               | | |_____________________| | |              \n");
+printf("               | |/_______________________\\| |             \n");
+printf("               |_|>-----------------------<|_|              \n");
+printf("              /                               \\            \n");
+printf("             /                                 \\           \n");
+printf("            /                                   \\          \n");
+printf("           /                                     \\         \n");
+printf("          /                                       \\        \n");
+printf("         /                                         \\       \n");
+printf("        /                                           \\      \n");
+printf("       /                                             \\     \n");
     }
     else
     {

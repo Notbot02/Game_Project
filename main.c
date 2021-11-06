@@ -47,10 +47,39 @@ N (Norte) S (Sul) L (leste) O (Oeste)\n\ ");
     chapter2_5();
     //divisor 2
 
-    //divisor 3
-    printf("\nAssim que passou pela porta ela se fechou atras de você.");
+    printf("\nVocê ouve um clique e a porta, a norte da sala, se abre.\
+            \nAo passar pela porta você percebe que esta do lado de fora da casa.\
+            \nA porta se fecha atrás de você, nela há um bilhete..\n");
+
+    printf("\nAo pegar o bilhete você lê:\
+           \nEu vou cumprir minha promessa, não importa aonde você for ou onde se esconder. \
+           \nEu vou te encontrar e te aprisionar assim como fez comigo.");
+
+printf("                                      /\\                                        \n");
+printf("                                 /\\  //\\\\                                     \n");
+printf("                          /\\    //\\\\///\\\\\\\        /\\                     \n");
+printf("                         //\\\\  ///\\///  \\\\\\  /\\  //\\\\                   \n");
+printf("            /\\          /  ^ \\/^ ^/^  ^  ^ \\/^ \\/  ^ \\                      \n");
+printf("           / ^\\    /\\  / ^   /  ^/ ^ ^ ^   ^\\ ^/  ^^  \\                      \n");
+printf("          /^   \\  / ^\\/ ^ ^   ^ / ^  ^    ^  \ / ^   ^  \\       _             \n");
+printf("         /  ^ ^ \\/^  ^\\ ^ ^ ^   ^  ^   ^   ____  ^   ^  \\     /|\\            \n");
+printf("        / ^ ^  ^ \\ ^  _\\___________________|  |_____^ ^  \\   /|||\\           \n");
+printf("       / ^^  ^ ^ ^\\  /______________________________\\ ^ ^ \\ /|||||\\          \n");
+printf("      /  ^  ^^ ^ ^  /________________________________\\  ^  /|||||||\\           \n");
+printf("     /^ ^  ^ ^^  ^    ||___|___||||||||||||___|__|||      /|||||||||\\           \n");
+printf("    / ^   ^   ^    ^  ||___|___||||||||||||___|__|||          | |                \n");
+printf("   / ^ ^ ^  ^  ^  ^   ||||||||||||||||||||||||||||||oooooooooo| |ooooooo         \n");
+printf("   ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo         \n");
+
+    printf("Agora você se vê em uma cabana abandonada, rodeada pelas arvores.\
+           \nO que você quer fazer? ");
+
+    /*divisor 3
+    printf("\nAssim que passou pela porta ela se fechou atras de você.\n");
+    printf("\nPara onde você quer olhar agora?\
+\nN (Norte) S (Sul) L (leste) O (Oeste)\n");
     chapter3();
-    //divisor 3
+    //divisor 3*/
 
     return 0;
 }
